@@ -52,8 +52,7 @@
                   <goal>write-project-properties</goal>
                 </goals>
                 <configuration>
-                  <outputFile>${project.basedir}/src/test/resources/Devops
-                    Settings.properties</outputFile>
+                  <outputFile>${project.basedir}/src/test/resources/GlobalSettings.properties</outputFile>
                 </configuration>
               </execution>
             </executions>
