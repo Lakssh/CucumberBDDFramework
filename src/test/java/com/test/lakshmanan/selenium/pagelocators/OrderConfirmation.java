@@ -30,6 +30,4 @@ public class OrderConfirmation extends FrameworkUtils {
     public final By btnOrderConfirmation = By.xpath("//p[@id='cart_navigation']/button[@type='submit']");
     public final By orderReferenceNumber = By.xpath("//div[@class='box']");
 
-
-
 }
