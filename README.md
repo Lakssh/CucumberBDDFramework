@@ -2,7 +2,7 @@
 
 ## Steps to execute the Test
 
-1. From command line using maven profile  : mvn clean test -PrunRegressionTest (make sure Java and maven are installed in the machine)
+1. From command line   : mvn clean test -PrunRegressionTest    ( make sure Java and maven are installed in the machine)
 
 2. Using an IDE (Eclipse or Intellij )    : Run from the TestNG file in the path src/test/resources/TestNGXMLs/ (use RegressionTest.xml for regression tests and SmokeTest.xml for smoke tests)
 
@@ -36,7 +36,7 @@ This is a hybrid framework buit using different component - Selenium with Java B
 
 8. WebDriverManager Used for picking the driver file automatically
 
-9. Can be easily integrated with Azure / AWS / Jenkins or any pipeline using the maven command provided in step 1
+9. Can be easily integrated with Azure / AWS / Jenkins or any pipeline using the maven command provided in step 1 after git clone (parameterising can also be done)
 
 
 
