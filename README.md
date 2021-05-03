@@ -14,6 +14,8 @@ Extent HTML and PDF reports are configured and will be available in /Reports fol
 
 ## Configuration related to automation design
 
+This is a hybrid framework buit using different component - Selenium with Java Binding , TestNG , Cucumber , Page Object Model , Singleton and factory design pattern with extent report
+
 1. Property files in src/test/resources/ path
 	-Application url and other application related properties are maintained in GlobalSettings.properties file
 	-Extent , cucumber reporting configs maintained in corresponding property files
@@ -32,6 +34,9 @@ Extent HTML and PDF reports are configured and will be available in /Reports fol
 
 7. TestNG listener is the core driving component used to control the flow of execution
 
+8. WebDriverManager Used for picking the driver file automatically
+
+9. Can be easily integrated with Azure / AWS / Jenkins or any pipeline using the maven command provided in step 1
 
 
 
