@@ -17,9 +17,8 @@ public class GeneralComponents extends FrameworkUtils {
     public void launchApplication(String application){
 
         String url = null;
-        if (application.equalsIgnoreCase("automationpractice"))
-            url = globalProperties.getProperty(application);
-        else
+        url = globalProperties.getProperty(application);
+        if (url == null)
             addStepError("Application URL is not defined");
         driver.get(url);
         waitForPageLoad(20);

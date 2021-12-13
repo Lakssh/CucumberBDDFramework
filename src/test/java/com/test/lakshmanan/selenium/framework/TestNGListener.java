@@ -20,16 +20,18 @@ public class TestNGListener implements ITestListener {
 
         setDefaultTestParameters(result.getTestContext());
         DriverManager.getInstance().ScenarioContext();
+        WebDriver driver;
 
         switch (parameters.getExecutionMode()) {
 
             case LOCAL:
-                WebDriver driver = DriverFactory.getWebDriver(parameters.getBrowser());
+                driver = DriverFactory.getWebDriver(parameters.getBrowser());
                 DriverManager.getInstance().setDriver(driver);
                 break;
 
             case GRID:
-
+                driver = DriverFactory.getRemoteWebDriver(parameters.getBrowser());
+                DriverManager.getInstance().setDriver(driver);
                 break;
 
             case MOBILE:

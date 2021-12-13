@@ -1,0 +1,461 @@
+# To execute this docker-compose yml file use Attaching to selenium-hub, cucumberbddframework_firefox_1, cucumberbddframework_chrome_1, cucumberbddframework_edge_1, cucumberbddframework_firefox_video_1, cucumberbddframework_chrome_video_1, cucumberbddframework_edge_video_1
+[36mchrome_1         |[0m 2021-12-12 18:14:31,617 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[32medge_1           |[0m 2021-12-12 18:14:31,693 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[36mchrome_1         |[0m 2021-12-12 18:14:31,621 INFO supervisord started with pid 8
+[34mfirefox_1        |[0m 2021-12-12 18:14:31,359 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[32medge_1           |[0m 2021-12-12 18:14:31,698 INFO supervisord started with pid 8
+[34mfirefox_1        |[0m 2021-12-12 18:14:31,375 INFO supervisord started with pid 10
+[33;1mselenium-hub     |[0m 2021-12-12 18:14:30,674 INFO Included extra file "/etc/supervisor/conf.d/selenium-grid-hub.conf" during parsing
+[33;1mselenium-hub     |[0m 2021-12-12 18:14:30,678 INFO supervisord started with pid 9
+[33;1mselenium-hub     |[0m 2021-12-12 18:14:31,680 INFO spawned: 'selenium-grid-hub' with pid 11
+[34mfirefox_1        |[0m 2021-12-12 18:14:32,377 INFO spawned: 'xvfb' with pid 12
+[34mfirefox_1        |[0m 2021-12-12 18:14:32,379 INFO spawned: 'vnc' with pid 13
+[34mfirefox_1        |[0m 2021-12-12 18:14:32,381 INFO spawned: 'novnc' with pid 14
+[34mfirefox_1        |[0m 2021-12-12 18:14:32,386 INFO spawned: 'selenium-node' with pid 15
+[34mfirefox_1        |[0m 2021-12-12 18:14:32,441 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[34mfirefox_1        |[0m 2021-12-12 18:14:32,442 INFO success: vnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[34mfirefox_1        |[0m 2021-12-12 18:14:32,442 INFO success: novnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[34mfirefox_1        |[0m 2021-12-12 18:14:32,442 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33mchrome_video_1   |[0m 2021-12-12 18:14:32,505 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+[35medge_video_1     |[0m 2021-12-12 18:14:32,506 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+[36;1mfirefox_video_1  |[0m 2021-12-12 18:14:32,507 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+[33mchrome_video_1   |[0m 2021-12-12 18:14:32,511 INFO supervisord started with pid 7
+[36;1mfirefox_video_1  |[0m 2021-12-12 18:14:32,511 INFO supervisord started with pid 7
+[35medge_video_1     |[0m 2021-12-12 18:14:32,512 INFO supervisord started with pid 8
+[36mchrome_1         |[0m 2021-12-12 18:14:32,624 INFO spawned: 'xvfb' with pid 10
+[36mchrome_1         |[0m 2021-12-12 18:14:32,626 INFO spawned: 'vnc' with pid 11
+[36mchrome_1         |[0m 2021-12-12 18:14:32,629 INFO spawned: 'novnc' with pid 12
+[36mchrome_1         |[0m 2021-12-12 18:14:32,633 INFO spawned: 'selenium-node' with pid 14
+[36mchrome_1         |[0m 2021-12-12 18:14:32,660 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[36mchrome_1         |[0m 2021-12-12 18:14:32,660 INFO success: vnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[36mchrome_1         |[0m 2021-12-12 18:14:32,660 INFO success: novnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[36mchrome_1         |[0m 2021-12-12 18:14:32,660 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33;1mselenium-hub     |[0m 2021-12-12 18:14:32,682 INFO success: selenium-grid-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32medge_1           |[0m 2021-12-12 18:14:32,700 INFO spawned: 'xvfb' with pid 10
+[32medge_1           |[0m 2021-12-12 18:14:32,702 INFO spawned: 'vnc' with pid 11
+[32medge_1           |[0m 2021-12-12 18:14:32,704 INFO spawned: 'novnc' with pid 12
+[32medge_1           |[0m 2021-12-12 18:14:32,707 INFO spawned: 'selenium-node' with pid 13
+[32medge_1           |[0m 2021-12-12 18:14:32,738 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32medge_1           |[0m 2021-12-12 18:14:32,738 INFO success: vnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32medge_1           |[0m 2021-12-12 18:14:32,738 INFO success: novnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32medge_1           |[0m 2021-12-12 18:14:32,738 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[34mfirefox_1        |[0m Generating Selenium Config
+[34mfirefox_1        |[0m Configuring server...
+[34mfirefox_1        |[0m Setting up SE_NODE_HOST...
+[34mfirefox_1        |[0m Setting up SE_NODE_PORT...
+[36mchrome_1         |[0m Generating Selenium Config
+[36mchrome_1         |[0m Configuring server...
+[36mchrome_1         |[0m Setting up SE_NODE_HOST...
+[36mchrome_1         |[0m Setting up SE_NODE_PORT...
+[36mchrome_1         |[0m Setting up SE_NODE_GRID_URL...
+[33;1mselenium-hub     |[0m 18:14:33.064 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+[32medge_1           |[0m Generating Selenium Config
+[33;1mselenium-hub     |[0m 18:14:33.090 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+[32medge_1           |[0m Configuring server...
+[32medge_1           |[0m Setting up SE_NODE_HOST...
+[32medge_1           |[0m Setting up SE_NODE_PORT...
+[36mchrome_1         |[0m Selenium Grid Node configuration: 
+[36mchrome_1         |[0m [events]
+[36mchrome_1         |[0m publish = "tcp://selenium-hub:4442"
+[36mchrome_1         |[0m subscribe = "tcp://selenium-hub:4443"
+[36mchrome_1         |[0m 
+[36mchrome_1         |[0m [node]
+[36mchrome_1         |[0m session-timeout = "300"
+[36mchrome_1         |[0m override-max-sessions = false
+[36mchrome_1         |[0m detect-drivers = false
+[36mchrome_1         |[0m max-sessions = 1
+[36mchrome_1         |[0m 
+[36mchrome_1         |[0m [[node.driver-configuration]]
+[36mchrome_1         |[0m display-name = "chrome"
+[36mchrome_1         |[0m stereotype = '{"browserName": "chrome", "browserVersion": "96.0", "platformName": "Linux"}'
+[36mchrome_1         |[0m max-sessions = 1
+[36mchrome_1         |[0m 
+[36mchrome_1         |[0m Starting Selenium Grid Node...
+[34mfirefox_1        |[0m Selenium Grid Node configuration: 
+[34mfirefox_1        |[0m [events]
+[34mfirefox_1        |[0m publish = "tcp://selenium-hub:4442"
+[34mfirefox_1        |[0m subscribe = "tcp://selenium-hub:4443"
+[34mfirefox_1        |[0m 
+[34mfirefox_1        |[0m [node]
+[34mfirefox_1        |[0m grid-url = "http://localhost:4444"
+[34mfirefox_1        |[0m session-timeout = "300"
+[34mfirefox_1        |[0m override-max-sessions = false
+[34mfirefox_1        |[0m detect-drivers = false
+[34mfirefox_1        |[0m max-sessions = 1
+[34mfirefox_1        |[0m 
+[34mfirefox_1        |[0m [[node.driver-configuration]]
+[34mfirefox_1        |[0m display-name = "firefox"
+[34mfirefox_1        |[0m stereotype = '{"browserName": "firefox", "browserVersion": "95.0", "platformName": "Linux"}'
+[34mfirefox_1        |[0m max-sessions = 1
+[34mfirefox_1        |[0m 
+[34mfirefox_1        |[0m Starting Selenium Grid Node...
+[33mchrome_video_1   |[0m 2021-12-12 18:14:33,513 INFO spawned: 'video-recording' with pid 9
+[36;1mfirefox_video_1  |[0m 2021-12-12 18:14:33,515 INFO spawned: 'video-recording' with pid 9
+[33mchrome_video_1   |[0m 2021-12-12 18:14:33,516 INFO spawned: 'video-ready' with pid 10
+[35medge_video_1     |[0m 2021-12-12 18:14:33,517 INFO spawned: 'video-recording' with pid 10
+[36;1mfirefox_video_1  |[0m 2021-12-12 18:14:33,519 INFO spawned: 'video-ready' with pid 10
+[35medge_video_1     |[0m 2021-12-12 18:14:33,521 INFO spawned: 'video-ready' with pid 11
+[32medge_1           |[0m Selenium Grid Node configuration: 
+[36;1mfirefox_video_1  |[0m Checking if the display is open...
+[35medge_video_1     |[0m Checking if the display is open...
+[36;1mfirefox_video_1  |[0m 2021-12-12 18:14:33,525 INFO success: video-recording entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[36;1mfirefox_video_1  |[0m 2021-12-12 18:14:33,525 INFO success: video-ready entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[35medge_video_1     |[0m 2021-12-12 18:14:33,526 INFO success: video-recording entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32medge_1           |[0m [events]
+[32medge_1           |[0m publish = "tcp://selenium-hub:4442"
+[32medge_1           |[0m subscribe = "tcp://selenium-hub:4443"
+[32medge_1           |[0m 
+[32medge_1           |[0m [node]
+[32medge_1           |[0m grid-url = "http://localhost:4444"
+[32medge_1           |[0m session-timeout = "300"
+[32medge_1           |[0m override-max-sessions = false
+[32medge_1           |[0m detect-drivers = false
+[32medge_1           |[0m max-sessions = 1
+[32medge_1           |[0m 
+[32medge_1           |[0m [[node.driver-configuration]]
+[32medge_1           |[0m display-name = "MicrosoftEdge"
+[32medge_1           |[0m stereotype = '{"browserName": "MicrosoftEdge", "browserVersion": "96.0", "platformName": "Linux"}'
+[32medge_1           |[0m max-sessions = 1
+[32medge_1           |[0m 
+[35medge_video_1     |[0m 2021-12-12 18:14:33,527 INFO success: video-ready entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32medge_1           |[0m Starting Selenium Grid Node...
+[33mchrome_video_1   |[0m Checking if the display is open...
+[33mchrome_video_1   |[0m 2021-12-12 18:14:33,529 INFO success: video-recording entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33mchrome_video_1   |[0m 2021-12-12 18:14:33,529 INFO success: video-ready entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33;1mselenium-hub     |[0m 18:14:33.546 INFO [BoundZmqEventBus.<init>] - XPUB binding to [binding to tcp://*:4442, advertising as tcp://172.18.0.2:4442], XSUB binding to [binding to tcp://*:4443, advertising as tcp://172.18.0.2:4443]
+[33mchrome_video_1   |[0m ffmpeg version 4.3.1 Copyright (c) 2000-2020 the FFmpeg developers
+[33mchrome_video_1   |[0m   built with gcc 9 (Ubuntu 9.3.0-17ubuntu1~20.04)
+[33mchrome_video_1   |[0m   configuration: --disable-debug --disable-doc --disable-ffplay --enable-shared --enable-avresample --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-gpl --enable-libass --enable-fontconfig --enable-libfreetype --enable-libvidstab --enable-libmp3lame --enable-libopus --enable-libtheora --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libxcb --enable-libx265 --enable-libxvid --enable-libx264 --enable-nonfree --enable-openssl --enable-libfdk_aac --enable-postproc --enable-small --enable-version3 --enable-libbluray --enable-libzmq --extra-libs=-ldl --prefix=/opt/ffmpeg --enable-libopenjpeg --enable-libkvazaar --enable-libaom --extra-libs=-lpthread --enable-libsrt --enable-libaribb24 --extra-cflags=-I/opt/ffmpeg/include --extra-ldflags=-L/opt/ffmpeg/lib
+[36;1mfirefox_video_1  |[0m ffmpeg version 4.3.1 Copyright (c) 2000-2020 the FFmpeg developers
+[36;1mfirefox_video_1  |[0m   built with gcc 9 (Ubuntu 9.3.0-17ubuntu1~20.04)
+[36;1mfirefox_video_1  |[0m   configuration: --disable-debug --disable-doc --disable-ffplay --enable-shared --enable-avresample --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-gpl --enable-libass --enable-fontconfig --enable-libfreetype --enable-libvidstab --enable-libmp3lame --enable-libopus --enable-libtheora --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libxcb --enable-libx265 --enable-libxvid --enable-libx264 --enable-nonfree --enable-openssl --enable-libfdk_aac --enable-postproc --enable-small --enable-version3 --enable-libbluray --enable-libzmq --extra-libs=-ldl --prefix=/opt/ffmpeg --enable-libopenjpeg --enable-libkvazaar --enable-libaom --extra-libs=-lpthread --enable-libsrt --enable-libaribb24 --extra-cflags=-I/opt/ffmpeg/include --extra-ldflags=-L/opt/ffmpeg/lib
+[36;1mfirefox_video_1  |[0m   libavutil      56. 51.100 / 56. 51.100
+[36;1mfirefox_video_1  |[0m   libavcodec     58. 91.100 / 58. 91.100
+[36;1mfirefox_video_1  |[0m   libavformat    58. 45.100 / 58. 45.100
+[36;1mfirefox_video_1  |[0m   libavdevice    58. 10.100 / 58. 10.100
+[36;1mfirefox_video_1  |[0m   libavfilter     7. 85.100 /  7. 85.100
+[36;1mfirefox_video_1  |[0m   libavresample   4.  0.  0 /  4.  0.  0
+[36;1mfirefox_video_1  |[0m   libswscale      5.  7.100 /  5.  7.100
+[36;1mfirefox_video_1  |[0m   libswresample   3.  7.100 /  3.  7.100
+[36;1mfirefox_video_1  |[0m   libpostproc    55.  7.100 / 55.  7.100
+[33mchrome_video_1   |[0m   libavutil      56. 51.100 / 56. 51.100
+[33mchrome_video_1   |[0m   libavcodec     58. 91.100 / 58. 91.100
+[33mchrome_video_1   |[0m   libavformat    58. 45.100 / 58. 45.100
+[33mchrome_video_1   |[0m   libavdevice    58. 10.100 / 58. 10.100
+[33mchrome_video_1   |[0m   libavfilter     7. 85.100 /  7. 85.100
+[33mchrome_video_1   |[0m   libavresample   4.  0.  0 /  4.  0.  0
+[33mchrome_video_1   |[0m   libswscale      5.  7.100 /  5.  7.100
+[33mchrome_video_1   |[0m   libswresample   3.  7.100 /  3.  7.100
+[33mchrome_video_1   |[0m   libpostproc    55.  7.100 / 55.  7.100
+[35medge_video_1     |[0m ffmpeg version 4.3.1 Copyright (c) 2000-2020 the FFmpeg developers
+[35medge_video_1     |[0m   built with gcc 9 (Ubuntu 9.3.0-17ubuntu1~20.04)
+[35medge_video_1     |[0m   configuration: --disable-debug --disable-doc --disable-ffplay --enable-shared --enable-avresample --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-gpl --enable-libass --enable-fontconfig --enable-libfreetype --enable-libvidstab --enable-libmp3lame --enable-libopus --enable-libtheora --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libxcb --enable-libx265 --enable-libxvid --enable-libx264 --enable-nonfree --enable-openssl --enable-libfdk_aac --enable-postproc --enable-small --enable-version3 --enable-libbluray --enable-libzmq --extra-libs=-ldl --prefix=/opt/ffmpeg --enable-libopenjpeg --enable-libkvazaar --enable-libaom --extra-libs=-lpthread --enable-libsrt --enable-libaribb24 --extra-cflags=-I/opt/ffmpeg/include --extra-ldflags=-L/opt/ffmpeg/lib
+[35medge_video_1     |[0m   libavutil      56. 51.100 / 56. 51.100
+[35medge_video_1     |[0m   libavcodec     58. 91.100 / 58. 91.100
+[35medge_video_1     |[0m   libavformat    58. 45.100 / 58. 45.100
+[35medge_video_1     |[0m   libavdevice    58. 10.100 / 58. 10.100
+[35medge_video_1     |[0m   libavfilter     7. 85.100 /  7. 85.100
+[35medge_video_1     |[0m   libavresample   4.  0.  0 /  4.  0.  0
+[35medge_video_1     |[0m   libswscale      5.  7.100 /  5.  7.100
+[35medge_video_1     |[0m   libswresample   3.  7.100 /  3.  7.100
+[35medge_video_1     |[0m   libpostproc    55.  7.100 / 55.  7.100
+[33mchrome_video_1   |[0m [x11grab @ 0x5607b4331b80] Cannot get the image data event_error: response_type:0 error_code:1 sequence:9 resource_id:1294 minor_code:4 major_code:130.
+[33mchrome_video_1   |[0m [x11grab @ 0x5607b4331b80] Continuing without shared memory.
+[33mchrome_video_1   |[0m [x11grab @ 0x5607b4331b80] Stream #0: not enough frames to estimate rate; consider increasing probesize
+[33mchrome_video_1   |[0m Input #0, x11grab, from 'chrome:99.0':
+[33mchrome_video_1   |[0m   Duration: N/A, start: 1639332873.790450, bitrate: 665856 kb/s
+[33mchrome_video_1   |[0m     Stream #0:0: Video: rawvideo (BGR[0] / 0x524742), bgr0, 1360x1020, 665856 kb/s, 15 fps, 1000k tbr, 1000k tbn, 1000k tbc
+[33mchrome_video_1   |[0m Stream mapping:
+[33mchrome_video_1   |[0m   Stream #0:0 -> #0:0 (rawvideo (native) -> h264 (libx264))
+[33mchrome_video_1   |[0m Press [q] to stop, [?] for help
+[35medge_video_1     |[0m [x11grab @ 0x55668216eb80] Cannot get the image data event_error: response_type:0 error_code:1 sequence:9 resource_id:1294 minor_code:4 major_code:130.
+[35medge_video_1     |[0m [x11grab @ 0x55668216eb80] Continuing without shared memory.
+[33mchrome_video_1   |[0m [libx264 @ 0x5607b4340cc0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 AVX2 LZCNT BMI2
+[36;1mfirefox_video_1  |[0m [x11grab @ 0x555aae5e3b80] Cannot get the image data event_error: response_type:0 error_code:1 sequence:9 resource_id:1294 minor_code:4 major_code:130.
+[36;1mfirefox_video_1  |[0m [x11grab @ 0x555aae5e3b80] Continuing without shared memory.
+[33mchrome_video_1   |[0m [libx264 @ 0x5607b4340cc0] profile Constrained Baseline, level 4.0
+[33mchrome_video_1   |[0m [libx264 @ 0x5607b4340cc0] 264 - core 148 - H.264/MPEG-4 AVC codec - Copyleft 2003-2016 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=15 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=0
+[33mchrome_video_1   |[0m Output #0, mp4, to '/videos/chrome_video.mp4':
+[33mchrome_video_1   |[0m   Metadata:
+[33mchrome_video_1   |[0m     encoder         : Lavf58.45.100
+[33mchrome_video_1   |[0m     Stream #0:0: Video: h264 (libx264) (avc1 / 0x31637661), yuv420p, 1360x1020, q=-1--1, 15 fps, 15360 tbn, 15 tbc
+[33mchrome_video_1   |[0m     Metadata:
+[33mchrome_video_1   |[0m       encoder         : Lavc58.91.100 libx264
+[33mchrome_video_1   |[0m     Side data:
+[33mchrome_video_1   |[0m       cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+[36;1mfirefox_video_1  |[0m [x11grab @ 0x555aae5e3b80] Stream #0: not enough frames to estimate rate; consider increasing probesize
+[36;1mfirefox_video_1  |[0m Input #0, x11grab, from 'firefox:99.0':
+[36;1mfirefox_video_1  |[0m   Duration: N/A, start: 1639332873.801662, bitrate: 665856 kb/s
+[36;1mfirefox_video_1  |[0m     Stream #0:0: Video: rawvideo (BGR[0] / 0x524742), bgr0, 1360x1020, 665856 kb/s, 15 fps, 1000k tbr, 1000k tbn, 1000k tbc
+[36;1mfirefox_video_1  |[0m Stream mapping:
+[36;1mfirefox_video_1  |[0m   Stream #0:0 -> #0:0 (rawvideo (native) -> h264 (libx264))
+[36;1mfirefox_video_1  |[0m Press [q] to stop, [?] for help
+[35medge_video_1     |[0m [x11grab @ 0x55668216eb80] Stream #0: not enough frames to estimate rate; consider increasing probesize
+[35medge_video_1     |[0m Input #0, x11grab, from 'edge:99.0':
+[35medge_video_1     |[0m   Duration: N/A, start: 1639332873.858235, bitrate: 665856 kb/s
+[35medge_video_1     |[0m     Stream #0:0: Video: rawvideo (BGR[0] / 0x524742), bgr0, 1360x1020, 665856 kb/s, 15 fps, 1000k tbr, 1000k tbn, 1000k tbc
+[36;1mfirefox_video_1  |[0m [libx264 @ 0x555aae5f2cc0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 AVX2 LZCNT BMI2
+[35medge_video_1     |[0m Stream mapping:
+[35medge_video_1     |[0m   Stream #0:0 -> #0:0 (rawvideo (native) -> h264 (libx264))
+[35medge_video_1     |[0m Press [q] to stop, [?] for help
+[36;1mfirefox_video_1  |[0m [libx264 @ 0x555aae5f2cc0] profile Constrained Baseline, level 4.0
+[36;1mfirefox_video_1  |[0m [libx264 @ 0x555aae5f2cc0] 264 - core 148 - H.264/MPEG-4 AVC codec - Copyleft 2003-2016 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=15 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=0
+[36;1mfirefox_video_1  |[0m Output #0, mp4, to '/videos/firefox_video.mp4':
+[36;1mfirefox_video_1  |[0m   Metadata:
+[36;1mfirefox_video_1  |[0m     encoder         : Lavf58.45.100
+[36;1mfirefox_video_1  |[0m     Stream #0:0: Video: h264 (libx264) (avc1 / 0x31637661), yuv420p, 1360x1020, q=-1--1, 15 fps, 15360 tbn, 15 tbc
+[36;1mfirefox_video_1  |[0m     Metadata:
+[36;1mfirefox_video_1  |[0m       encoder         : Lavc58.91.100 libx264
+[36;1mfirefox_video_1  |[0m     Side data:
+[36;1mfirefox_video_1  |[0m       cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+[33;1mselenium-hub     |[0m 18:14:33.961 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://172.18.0.2:4442 and tcp://172.18.0.2:4443
+[35medge_video_1     |[0m [libx264 @ 0x55668217dcc0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 AVX2 LZCNT BMI2
+[35medge_video_1     |[0m [libx264 @ 0x55668217dcc0] profile Constrained Baseline, level 4.0
+[35medge_video_1     |[0m [libx264 @ 0x55668217dcc0] 264 - core 148 - H.264/MPEG-4 AVC codec - Copyleft 2003-2016 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=15 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=0
+[35medge_video_1     |[0m Output #0, mp4, to '/videos/edge_video.mp4':
+[35medge_video_1     |[0m   Metadata:
+[35medge_video_1     |[0m     encoder         : Lavf58.45.100
+[35medge_video_1     |[0m     Stream #0:0: Video: h264 (libx264) (avc1 / 0x31637661), yuv420p, 1360x1020, q=-1--1, 15 fps, 15360 tbn, 15 tbc
+[35medge_video_1     |[0m     Metadata:
+[35medge_video_1     |[0m       encoder         : Lavc58.91.100 libx264
+[35medge_video_1     |[0m     Side data:
+[35medge_video_1     |[0m       cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+[33;1mselenium-hub     |[0m 18:14:34.073 INFO [UnboundZmqEventBus.<init>] - Sockets created
+[36mchrome_1         |[0m 18:14:34.738 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+[36mchrome_1         |[0m 18:14:34.760 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+[34mfirefox_1        |[0m 18:14:34.898 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+[34mfirefox_1        |[0m 18:14:34.912 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+[32medge_1           |[0m 18:14:35.018 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+[32medge_1           |[0m 18:14:35.045 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+[33;1mselenium-hub     |[0m 18:14:35.079 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+[36mchrome_1         |[0m 18:14:35.200 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+[34mfirefox_1        |[0m 18:14:35.394 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+[36mchrome_1         |[0m 18:14:35.455 INFO [UnboundZmqEventBus.<init>] - Sockets created
+[32medge_1           |[0m 18:14:35.529 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+[34mfirefox_1        |[0m 18:14:35.630 INFO [UnboundZmqEventBus.<init>] - Sockets created
+[32medge_1           |[0m 18:14:35.718 INFO [UnboundZmqEventBus.<init>] - Sockets created
+[36mchrome_1         |[0m 18:14:36.465 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+[34mfirefox_1        |[0m 18:14:36.635 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+[36mchrome_1         |[0m 18:14:36.703 INFO [NodeServer.createHandlers] - Reporting self as: http://172.18.0.5:5555
+[32medge_1           |[0m 18:14:36.732 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+[36mchrome_1         |[0m 18:14:36.758 INFO [NodeOptions.getSessionFactories] - Detected 4 available processors
+[33;1mselenium-hub     |[0m 18:14:36.891 INFO [Hub.execute] - Started Selenium Hub 4.1.0 (revision 87802e897b): http://172.18.0.2:4444
+[36mchrome_1         |[0m 18:14:36.956 INFO [NodeOptions.report] - Adding chrome for {"browserVersion": "96.0","browserName": "chrome","platformName": "Linux","se:vncEnabled": true} 1 times
+[36mchrome_1         |[0m 18:14:36.985 INFO [Node.<init>] - Binding additional locator mechanisms: relative, id, name
+[32medge_1           |[0m 18:14:37.039 INFO [NodeServer.createHandlers] - Reporting self as: http://172.18.0.4:5555
+[32medge_1           |[0m 18:14:37.065 INFO [NodeOptions.getSessionFactories] - Detected 4 available processors
+[34mfirefox_1        |[0m 18:14:37.095 INFO [NodeServer.createHandlers] - Reporting self as: http://172.18.0.3:5555
+[34mfirefox_1        |[0m 18:14:37.121 INFO [NodeOptions.getSessionFactories] - Detected 4 available processors
+[32medge_1           |[0m 18:14:37.183 INFO [NodeOptions.report] - Adding MicrosoftEdge for {"browserVersion": "96.0","browserName": "MicrosoftEdge","platformName": "Linux","se:vncEnabled": true} 1 times
+[34mfirefox_1        |[0m 18:14:37.211 INFO [NodeOptions.report] - Adding firefox for {"browserVersion": "95.0","browserName": "firefox","platformName": "Linux","se:vncEnabled": true} 1 times
+[32medge_1           |[0m 18:14:37.214 INFO [Node.<init>] - Binding additional locator mechanisms: name, relative, id
+[34mfirefox_1        |[0m 18:14:37.230 INFO [Node.<init>] - Binding additional locator mechanisms: id, name, relative
+[33;1mselenium-hub     |[0m 18:14:37.454 INFO [Node.<init>] - Binding additional locator mechanisms: relative, id, name
+[36mchrome_1         |[0m 18:14:37.895 INFO [NodeServer$1.start] - Starting registration process for node id 936f078f-1aa0-4cac-9b48-3488516be328
+[36mchrome_1         |[0m 18:14:37.905 INFO [NodeServer.execute] - Started Selenium node 4.1.0 (revision 87802e897b): http://172.18.0.5:5555
+[36mchrome_1         |[0m 18:14:37.915 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+[32medge_1           |[0m 18:14:38.181 INFO [NodeServer$1.start] - Starting registration process for node id 17ffaebd-77dd-4580-ab2e-ed212659f77a
+[32medge_1           |[0m 18:14:38.187 INFO [NodeServer.execute] - Started Selenium node 4.1.0 (revision 87802e897b): http://172.18.0.4:5555
+[34mfirefox_1        |[0m 18:14:38.224 INFO [NodeServer$1.start] - Starting registration process for node id 3784fae9-298f-4819-8e47-7ecde3205c80
+[34mfirefox_1        |[0m 18:14:38.240 INFO [NodeServer.execute] - Started Selenium node 4.1.0 (revision 87802e897b): http://172.18.0.3:5555
+[32medge_1           |[0m 18:14:38.213 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+[34mfirefox_1        |[0m 18:14:38.243 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+[33;1mselenium-hub     |[0m 18:14:38.968 INFO [LocalDistributor.add] - Added node 936f078f-1aa0-4cac-9b48-3488516be328 at http://172.18.0.5:5555. Health check every 120s
+[33;1mselenium-hub     |[0m 18:14:38.978 INFO [Node.<init>] - Binding additional locator mechanisms: name, relative, id
+[36mchrome_1         |[0m 18:14:38.992 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+[33;1mselenium-hub     |[0m 18:14:39.258 INFO [LocalDistributor.add] - Added node 17ffaebd-77dd-4580-ab2e-ed212659f77a at http://172.18.0.4:5555. Health check every 120s
+[33;1mselenium-hub     |[0m 18:14:39.267 INFO [Node.<init>] - Binding additional locator mechanisms: name, id, relative
+[32medge_1           |[0m 18:14:39.274 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+[33;1mselenium-hub     |[0m 18:14:39.590 INFO [LocalDistributor.add] - Added node 3784fae9-298f-4819-8e47-7ecde3205c80 at http://172.18.0.3:5555. Health check every 120s
+[33;1mselenium-hub     |[0m 18:14:39.599 INFO [GridModel.setAvailability] - Switching node 936f078f-1aa0-4cac-9b48-3488516be328 (uri: http://172.18.0.5:5555) from DOWN to UP
+[34mfirefox_1        |[0m 18:14:39.602 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+[33;1mselenium-hub     |[0m 18:14:39.618 INFO [GridModel.setAvailability] - Switching node 17ffaebd-77dd-4580-ab2e-ed212659f77a (uri: http://172.18.0.4:5555) from DOWN to UP
+[33;1mselenium-hub     |[0m 18:14:39.634 INFO [GridModel.setAvailability] - Switching node 3784fae9-298f-4819-8e47-7ecde3205c80 (uri: http://172.18.0.3:5555) from DOWN to UP
+[35medge_video_1     |[0m frame=   11 fps=0.0 q=12.0 size=       0kB time=00:00:00.20 bitrate=   1.9kbits/s speed=0.372x    frame=   19 fps= 17 q=11.0 size=       0kB time=00:00:00.73 bitrate=   0.5kbits/s speed=0.668x    frame=   27 fps= 17 q=11.0 size=       0kB time=00:00:01.26 bitrate=   0.3kbits/s speed=0.781x    frame=   35 fps= 16 q=11.0 size=       0kB time=00:00:01.80 bitrate=   0.2kbits/s speed=0.845x    frame=   43 fps= 16 q=11.0 size=       0kB time=00:00:02.33 bitrate=   0.2kbits/s speed=0.874x    frame=   51 fps= 16 q=11.0 size=       0kB time=00:00:02.86 bitrate=   0.1kbits/s speed=0.895x    frame=   59 fps= 16 q=11.0 size=       0kB time=00:00:03.40 bitrate=   0.1kbits/s speed=0.91x    frame=   67 fps= 16 q=11.0 size=       0kB time=00:00:03.93 bitrate=   0.1kbits/s speed=0.915x    frame=   75 fps= 16 q=11.0 size=       0kB time=00:00:04.46 bitrate=   0.1kbits/s speed=0.931x    frame=   83 fps= 16 q=11.0 size=       0kB time=00:00:05.00 bitrate=   0.1kbits/s speed=0.936x    frame=   91 fps= 15 q=11.0 size=       0kB time=00:00:05.53 bitrate=   0.1kbits/s speed=0.942x    frame=   99 fps= 15 q=11.0 size=       0kB time=00:00:06.06 bitrate=   0.1kbits/s speed=0.947x    frame=  107 fps= 15 q=11.0 size=       0kB time=00:00:06.60 bitrate=   0.1kbits/s speed=0.951x    frame=  115 fps= 15 q=11.0 size=       0kB time=00:00:07.13 bitrate=   0.1kbits/s speed=0.954x    frame=  123 fps= 15 q=11.0 size=       0kB time=00:00:07.66 bitrate=   0.1kbits/s speed=0.958x    frame=  131 fps= 15 q=11.0 size=       0kB time=00:00:08.20 bitrate=   0.0kbits/s speed=0.96x    frame=  139 fps= 15 q=11.0 size=       0kB time=00:00:08.73 bitrate=   0.0kbits/s speed=0.962x    frame=  147 fps= 15 q=11.0 size=       0kB time=00:00:09.26 bitrate=   0.0kbits/s speed=0.965x    frame=  155 fps= 15 q=11.0 size=       0kB time=00:00:09.80 bitrate=   0.0kbits/s speed=0.966x    frame=  163 fps= 15 q=11.0 size=       0kB time=00:00:10.33 bitrate=   0.0kbits/s speed=0.966x    frame=  171 fps= 15 q=11.0 size=       0kB time=00:00:10.86 bitrate=   0.0kbits/s speed=0.969x    frame=  179 fps= 15 q=11.0 size=       0kB time=00:00:11.40 bitrate=   0.0kbits/s speed=0.971x    frame=  187 fps= 15 q=11.0 size=       0kB time=00:00:11.93 bitrate=   0.0kbits/s speed=0.972x    frame=  195 fps= 15 q=11.0 size=       0kB time=00:00:12.46 bitrate=   0.0kbits/s speed=0.974x    frame=  203 fps= 15 q=11.0 size=       0kB time=00:00:13.00 bitrate=   0.0kbits/s speed=0.975x    frame=  211 fps= 15 q=11.0 size=       0kB time=00:00:13.53 bitrate=   0.0kbits/s speed=0.975x    frame=  219 fps= 15 q=11.0 size=       0kB time=00:00:14.06 bitrate=   0.0kbits/s speed=0.976x    frame=  227 fps= 15 q=11.0 size=       0kB time=00:00:14.60 bitrate=   0.0kbits/s speed=0.977x    frame=  235 fps= 15 q=11.0 size=       0kB time=00:00:15.13 bitrate=   0.0kbits/s speed=0.978x    frame=  243 fps= 15 q=11.0 size=     256kB time=00:00:15.66 bitrate= 133.9kbits/s speed=0.978x    frame=  251 fps= 15 q=11.0 size=     256kB time=00:00:16.20 bitrate= 129.5kbits/s speed=0.979x    frame=  259 fps= 15 q=11.0 size=     256kB time=00:00:16.73 bitrate= 125.4kbits/s speed=0.98x    frame=  267 fps= 15 q=11.0 size=     256kB time=00:00:17.26 bitrate= 121.5kbits/s speed=0.98x    frame=  275 fps= 15 q=11.0 size=     256kB time=00:00:17.80 bitrate= 117.8kbits/s speed=0.981x    frame=  282 fps= 15 q=11.0 size=     256kB time=00:00:18.26 bitrate= 114.8kbits/s speed=0.98x    frame=  290 fps= 15 q=11.0 size=     256kB time=00:00:18.80 bitrate= 111.6kbits/s speed=0.98x    frame=  298 fps= 15 q=11.0 size=     256kB time=00:00:19.33 bitrate= 108.5kbits/s speed=0.981x    frame=  306 fps= 15 q=11.0 size=     256kB time=00:00:19.86 bitrate= 105.6kbits/s speed=0.981x    frame=  314 fps= 15 q=11.0 size=     256kB time=00:00:20.40 bitrate= 102.8kbits/s speed=0.982x    frame=  322 fps= 15 q=11.0 size=     256kB time=00:00:20.93 bitrate= 100.2kbits/s speed=0.982x    frame=  330 fps= 15 q=11.0 size=     256kB time=00:00:21.46 bitrate=  97.7kbits/s speed=0.983x    frame=  338 fps= 15 q=11.0 size=     256kB time=00:00:22.00 bitrate=  95.3kbits/s speed=0.983x    frame=  346 fps= 15 q=11.0 size=     256kB time=00:00:22.53 bitrate=  93.1kbits/s speed=0.984x    frame=  354 fps= 15 q=11.0 size=     256kB time=00:00:23.06 bitrate=  90.9kbits/s speed=0.984x    frame=  362 fps= 15 q=11.0 size=     256kB time=00:00:23.60 bitrate=  88.9kbits/s speed=0.984x    frame=  370 fps= 15 q=11.0 size=     256kB time=00:00:24.13 bitrate=  86.9kbits/s speed=0.985x    frame=  378 fps= 15 q=11.0 size=     256kB time=00:00:24.66 bitrate=  85.0kbits/s speed=0.985x    frame=  386 fps= 15 q=11.0 size=     256kB time=00:00:25.20 bitrate=  83.2kbits/s speed=0.985x    frame=  394 fps= 15 q=11.0 size=     256kB time=00:00:25.73 bitrate=  81.5kbits/s speed=0.985x    frame=  402 fps= 15 q=11.0 size=     256kB time=00:00:26.26 bitrate=  79.9kbits/s speed=0.986x    frame=  410 fps= 15 q=11.0 size=     256kB time=00:00:26.80 bitrate=  78.3kbits/s speed=0.986x    frame=  418 fps= 15 q=11.0 size=     256kB time=00:00:27.33 bitrate=  76.7kbits/s speed=0.986x    frame=  426 fps= 15 q=11.0 size=     256kB time=00:00:27.86 bitrate=  75.3kbits/s speed=0.987x    frame=  434 fps= 15 q=11.0 size=     256kB time=00:00:28.40 bitrate=  73.9kbits/s speed=0.987x    frame=  442 fps= 15 q=11.0 size=     256kB time=00:00:28.93 bitrate=  72.5kbits/s speed=0.987x    frame=  450 fps= 15 q=11.0 size=     256kB time=00:00:29.46 bitrate=  71.2kbits/s speed=0.987x    frame=  458 fps= 15 q=11.0 size=     256kB time=00:00:30.00 bitrate=  69.9kbits/s speed=0.987x    frame=  466 fps= 15 q=11.0 size=     256kB time=00:00:30.53 bitrate=  68.7kbits/s speed=0.988x    frame=  474 fps= 15 q=11.0 size=     256kB time=00:00:31.06 bitrate=  67.5kbits/s speed=0.988x    frame=  482 fps= 15 q=11.0 size=     256kB time=00:00:31.60 bitrate=  66.4kbits/s speed=0.988x    Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[33mchrome_video_1   |[0m frame=   10 fps=0.0 q=16.0 size=       0kB time=00:00:00.13 bitrate=   2.9kbits/s speed=0.26x    frame=   18 fps= 17 q=11.0 size=       0kB time=00:00:00.66 bitrate=   0.6kbits/s speed=0.64x    frame=   26 fps= 17 q=11.0 size=       0kB time=00:00:01.20 bitrate=   0.3kbits/s speed=0.764x    frame=   34 fps= 16 q=11.0 size=       0kB time=00:00:01.73 bitrate=   0.2kbits/s speed=0.825x    frame=   42 fps= 16 q=11.0 size=       0kB time=00:00:02.26 bitrate=   0.2kbits/s speed=0.862x    frame=   50 fps= 16 q=11.0 size=       0kB time=00:00:02.80 bitrate=   0.1kbits/s speed=0.885x    frame=   58 fps= 16 q=11.0 size=       0kB time=00:00:03.33 bitrate=   0.1kbits/s speed=0.898x    frame=   66 fps= 16 q=11.0 size=       0kB time=00:00:03.86 bitrate=   0.1kbits/s speed=0.912x    frame=   74 fps= 16 q=11.0 size=       0kB time=00:00:04.40 bitrate=   0.1kbits/s speed=0.923x    frame=   82 fps= 15 q=11.0 size=       0kB time=00:00:04.93 bitrate=   0.1kbits/s speed=0.931x    frame=   90 fps= 15 q=11.0 size=       0kB time=00:00:05.46 bitrate=   0.1kbits/s speed=0.936x    frame=   98 fps= 15 q=11.0 size=       0kB time=00:00:06.00 bitrate=   0.1kbits/s speed=0.941x    frame=  106 fps= 15 q=11.0 size=       0kB time=00:00:06.53 bitrate=   0.1kbits/s speed=0.946x    frame=  114 fps= 15 q=11.0 size=       0kB time=00:00:07.06 bitrate=   0.1kbits/s speed=0.95x    frame=  122 fps= 15 q=11.0 size=       0kB time=00:00:07.60 bitrate=   0.1kbits/s speed=0.953x    frame=  130 fps= 15 q=11.0 size=       0kB time=00:00:08.13 bitrate=   0.0kbits/s speed=0.956x    frame=  138 fps= 15 q=11.0 size=       0kB time=00:00:08.66 bitrate=   0.0kbits/s speed=0.958x    frame=  146 fps= 15 q=11.0 size=       0kB time=00:00:09.20 bitrate=   0.0kbits/s speed=0.961x    frame=  154 fps= 15 q=11.0 size=       0kB time=00:00:09.73 bitrate=   0.0kbits/s speed=0.963x    frame=  162 fps= 15 q=11.0 size=       0kB time=00:00:10.26 bitrate=   0.0kbits/s speed=0.965x    frame=  170 fps= 15 q=11.0 size=       0kB time=00:00:10.80 bitrate=   0.0kbits/s speed=0.966x    frame=  178 fps= 15 q=11.0 size=       0kB time=00:00:11.33 bitrate=   0.0kbits/s speed=0.967x    frame=  186 fps= 15 q=11.0 size=       0kB time=00:00:11.86 bitrate=   0.0kbits/s speed=0.968x    frame=  194 fps= 15 q=11.0 size=       0kB time=00:00:12.40 bitrate=   0.0kbits/s speed=0.968x    frame=  202 fps= 15 q=11.0 size=       0kB time=00:00:12.93 bitrate=   0.0kbits/s speed=0.971x    frame=  210 fps= 15 q=11.0 size=       0kB time=00:00:13.46 bitrate=   0.0kbits/s speed=0.972x    frame=  218 fps= 15 q=11.0 size=       0kB time=00:00:14.00 bitrate=   0.0kbits/s speed=0.973x    frame=  226 fps= 15 q=11.0 size=       0kB time=00:00:14.53 bitrate=   0.0kbits/s speed=0.974x    frame=  234 fps= 15 q=11.0 size=       0kB time=00:00:15.06 bitrate=   0.0kbits/s speed=0.975x    frame=  242 fps= 15 q=11.0 size=       0kB time=00:00:15.60 bitrate=   0.0kbits/s speed=0.976x    frame=  250 fps= 15 q=11.0 size=       0kB time=00:00:16.13 bitrate=   0.0kbits/s speed=0.977x    frame=  258 fps= 15 q=12.0 size=     256kB time=00:00:16.66 bitrate= 125.9kbits/s speed=0.978x    frame=  266 fps= 15 q=11.0 size=     256kB time=00:00:17.20 bitrate= 121.9kbits/s speed=0.979x    frame=  274 fps= 15 q=11.0 size=     256kB time=00:00:17.73 bitrate= 118.3kbits/s speed=0.98x    frame=  281 fps= 15 q=11.0 size=     256kB time=00:00:18.20 bitrate= 115.2kbits/s speed=0.978x    frame=  289 fps= 15 q=11.0 size=     256kB time=00:00:18.73 bitrate= 112.0kbits/s speed=0.979x    frame=  297 fps= 15 q=11.0 size=     256kB time=00:00:19.26 bitrate= 108.9kbits/s speed=0.979x    frame=  305 fps= 15 q=11.0 size=     256kB time=00:00:19.80 bitrate= 105.9kbits/s speed=0.98x    frame=  313 fps= 15 q=11.0 size=     256kB time=00:00:20.33 bitrate= 103.2kbits/s speed=0.98x    frame=  321 fps= 15 q=11.0 size=     256kB time=00:00:20.86 bitrate= 100.5kbits/s speed=0.98x    frame=  329 fps= 15 q=11.0 size=     256kB time=00:00:21.40 bitrate=  98.0kbits/s speed=0.981x    frame=  337 fps= 15 q=11.0 size=     256kB time=00:00:21.93 bitrate=  95.6kbits/s speed=0.982x    frame=  345 fps= 15 q=11.0 size=     256kB time=00:00:22.46 bitrate=  93.4kbits/s speed=0.982x    frame=  353 fps= 15 q=11.0 size=     256kB time=00:00:23.00 bitrate=  91.2kbits/s speed=0.983x    frame=  361 fps= 15 q=11.0 size=     256kB time=00:00:23.53 bitrate=  89.1kbits/s speed=0.983x    frame=  369 fps= 15 q=11.0 size=     256kB time=00:00:24.06 bitrate=  87.2kbits/s speed=0.983x    frame=  377 fps= 15 q=11.0 size=     256kB time=00:00:24.60 bitrate=  85.3kbits/s speed=0.984x    frame=  385 fps= 15 q=11.0 size=     256kB time=00:00:25.13 bitrate=  83.5kbits/s speed=0.984x    frame=  393 fps= 15 q=11.0 size=     256kB time=00:00:25.66 bitrate=  81.7kbits/s speed=0.984x    frame=  401 fps= 15 q=11.0 size=     256kB time=00:00:26.20 bitrate=  80.1kbits/s speed=0.985x    frame=  409 fps= 15 q=11.0 size=     256kB time=00:00:26.73 bitrate=  78.5kbits/s speed=0.985x    frame=  417 fps= 15 q=11.0 size=     256kB time=00:00:27.26 bitrate=  76.9kbits/s speed=0.985x    frame=  425 fps= 15 q=11.0 size=     256kB time=00:00:27.80 bitrate=  75.5kbits/s speed=0.985x    frame=  433 fps= 15 q=11.0 size=     256kB time=00:00:28.33 bitrate=  74.0kbits/s speed=0.986x    frame=  441 fps= 15 q=11.0 size=     256kB time=00:00:28.86 bitrate=  72.7kbits/s speed=0.986x    frame=  449 fps= 15 q=11.0 size=     256kB time=00:00:29.40 bitrate=  71.3kbits/s speed=0.986x    frame=  457 fps= 15 q=11.0 size=     256kB time=00:00:29.93 bitrate=  70.1kbits/s speed=0.986x    frame=  465 fps= 15 q=11.0 size=     256kB time=00:00:30.46 bitrate=  68.8kbits/s speed=0.987x    frame=  473 fps= 15 q=11.0 size=     256kB time=00:00:31.00 bitrate=  67.7kbits/s speed=0.987x    frame=  481 fps= 15 q=11.0 size=     256kB time=00:00:31.53 bitrate=  66.5kbits/s speed=0.987x    Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[36;1mfirefox_video_1  |[0m frame=   11 fps=0.0 q=18.0 size=       0kB time=00:00:00.20 bitrate=   1.9kbits/s speed=0.387x    frame=   19 fps= 18 q=11.0 size=       0kB time=00:00:00.73 bitrate=   0.5kbits/s speed=0.701x    frame=   27 fps= 17 q=11.0 size=       0kB time=00:00:01.26 bitrate=   0.3kbits/s speed=0.796x    frame=   35 fps= 17 q=11.0 size=       0kB time=00:00:01.80 bitrate=   0.2kbits/s speed=0.854x    frame=   43 fps= 16 q=11.0 size=       0kB time=00:00:02.33 bitrate=   0.2kbits/s speed=0.881x    frame=   51 fps= 16 q=11.0 size=       0kB time=00:00:02.86 bitrate=   0.1kbits/s speed=0.901x    frame=   59 fps= 16 q=11.0 size=       0kB time=00:00:03.40 bitrate=   0.1kbits/s speed=0.914x    frame=   67 fps= 16 q=11.0 size=       0kB time=00:00:03.93 bitrate=   0.1kbits/s speed=0.926x    frame=   75 fps= 16 q=11.0 size=       0kB time=00:00:04.46 bitrate=   0.1kbits/s speed=0.935x    frame=   83 fps= 16 q=11.0 size=       0kB time=00:00:05.00 bitrate=   0.1kbits/s speed=0.941x    frame=   91 fps= 16 q=11.0 size=       0kB time=00:00:05.53 bitrate=   0.1kbits/s speed=0.946x    frame=   99 fps= 16 q=11.0 size=       0kB time=00:00:06.06 bitrate=   0.1kbits/s speed=0.951x    frame=  107 fps= 15 q=11.0 size=       0kB time=00:00:06.60 bitrate=   0.1kbits/s speed=0.954x    frame=  115 fps= 15 q=11.0 size=       0kB time=00:00:07.13 bitrate=   0.1kbits/s speed=0.958x    frame=  123 fps= 15 q=11.0 size=       0kB time=00:00:07.66 bitrate=   0.1kbits/s speed=0.96x    frame=  131 fps= 15 q=11.0 size=       0kB time=00:00:08.20 bitrate=   0.0kbits/s speed=0.963x    frame=  139 fps= 15 q=11.0 size=       0kB time=00:00:08.73 bitrate=   0.0kbits/s speed=0.965x    frame=  147 fps= 15 q=11.0 size=       0kB time=00:00:09.26 bitrate=   0.0kbits/s speed=0.967x    frame=  155 fps= 15 q=11.0 size=       0kB time=00:00:09.80 bitrate=   0.0kbits/s speed=0.969x    frame=  163 fps= 15 q=11.0 size=       0kB time=00:00:10.33 bitrate=   0.0kbits/s speed=0.97x    frame=  171 fps= 15 q=11.0 size=       0kB time=00:00:10.86 bitrate=   0.0kbits/s speed=0.972x    frame=  179 fps= 15 q=11.0 size=       0kB time=00:00:11.40 bitrate=   0.0kbits/s speed=0.973x    frame=  187 fps= 15 q=11.0 size=       0kB time=00:00:11.93 bitrate=   0.0kbits/s speed=0.974x    frame=  194 fps= 15 q=11.0 size=       0kB time=00:00:12.40 bitrate=   0.0kbits/s speed=0.971x    frame=  203 fps= 15 q=11.0 size=       0kB time=00:00:13.00 bitrate=   0.0kbits/s speed=0.976x    frame=  211 fps= 15 q=11.0 size=       0kB time=00:00:13.53 bitrate=   0.0kbits/s speed=0.977x    frame=  219 fps= 15 q=11.0 size=       0kB time=00:00:14.06 bitrate=   0.0kbits/s speed=0.977x    frame=  227 fps= 15 q=11.0 size=       0kB time=00:00:14.60 bitrate=   0.0kbits/s speed=0.979x    frame=  235 fps= 15 q=11.0 size=       0kB time=00:00:15.13 bitrate=   0.0kbits/s speed=0.979x    frame=  243 fps= 15 q=11.0 size=       0kB time=00:00:15.66 bitrate=   0.0kbits/s speed=0.98x    frame=  251 fps= 15 q=11.0 size=       0kB time=00:00:16.20 bitrate=   0.0kbits/s speed=0.981x    frame=  259 fps= 15 q=11.0 size=     256kB time=00:00:16.73 bitrate= 125.4kbits/s speed=0.981x    frame=  267 fps= 15 q=11.0 size=     256kB time=00:00:17.26 bitrate= 121.5kbits/s speed=0.981x    frame=  275 fps= 15 q=11.0 size=     256kB time=00:00:17.80 bitrate= 117.8kbits/s speed=0.983x    frame=  282 fps= 15 q=11.0 size=     256kB time=00:00:18.26 bitrate= 114.8kbits/s speed=0.981x    frame=  290 fps= 15 q=11.0 size=     256kB time=00:00:18.80 bitrate= 111.6kbits/s speed=0.982x    frame=  298 fps= 15 q=11.0 size=     256kB time=00:00:19.33 bitrate= 108.5kbits/s speed=0.982x    frame=  306 fps= 15 q=11.0 size=     256kB time=00:00:19.86 bitrate= 105.6kbits/s speed=0.983x    frame=  314 fps= 15 q=11.0 size=     256kB time=00:00:20.40 bitrate= 102.8kbits/s speed=0.983x    frame=  322 fps= 15 q=11.0 size=     256kB time=00:00:20.93 bitrate= 100.2kbits/s speed=0.984x    frame=  330 fps= 15 q=11.0 size=     256kB time=00:00:21.46 bitrate=  97.7kbits/s speed=0.984x    frame=  338 fps= 15 q=11.0 size=     256kB time=00:00:22.00 bitrate=  95.3kbits/s speed=0.984x    frame=  346 fps= 15 q=11.0 size=     256kB time=00:00:22.53 bitrate=  93.1kbits/s speed=0.985x    frame=  354 fps= 15 q=11.0 size=     256kB time=00:00:23.06 bitrate=  90.9kbits/s speed=0.985x    frame=  362 fps= 15 q=11.0 size=     256kB time=00:00:23.60 bitrate=  88.9kbits/s speed=0.985x    frame=  370 fps= 15 q=11.0 size=     256kB time=00:00:24.13 bitrate=  86.9kbits/s speed=0.985x    frame=  378 fps= 15 q=11.0 size=     256kB time=00:00:24.66 bitrate=  85.0kbits/s speed=0.986x    frame=  386 fps= 15 q=11.0 size=     256kB time=00:00:25.20 bitrate=  83.2kbits/s speed=0.986x    frame=  394 fps= 15 q=11.0 size=     256kB time=00:00:25.73 bitrate=  81.5kbits/s speed=0.987x    frame=  402 fps= 15 q=11.0 size=     256kB time=00:00:26.26 bitrate=  79.9kbits/s speed=0.987x    frame=  410 fps= 15 q=11.0 size=     256kB time=00:00:26.80 bitrate=  78.3kbits/s speed=0.987x    frame=  418 fps= 15 q=11.0 size=     256kB time=00:00:27.33 bitrate=  76.7kbits/s speed=0.987x    frame=  426 fps= 15 q=11.0 size=     256kB time=00:00:27.86 bitrate=  75.3kbits/s speed=0.988x    frame=  434 fps= 15 q=11.0 size=     256kB time=00:00:28.40 bitrate=  73.9kbits/s speed=0.988x    frame=  442 fps= 15 q=11.0 size=     256kB time=00:00:28.93 bitrate=  72.5kbits/s speed=0.988x    frame=  450 fps= 15 q=11.0 size=     256kB time=00:00:29.46 bitrate=  71.2kbits/s speed=0.988x    frame=  458 fps= 15 q=11.0 size=     256kB time=00:00:30.00 bitrate=  69.9kbits/s speed=0.988x    frame=  466 fps= 15 q=11.0 size=     256kB time=00:00:30.53 bitrate=  68.7kbits/s speed=0.989x    frame=  474 fps= 15 q=11.0 size=     256kB time=00:00:31.06 bitrate=  67.5kbits/s speed=0.989x    frame=  482 fps= 15 q=11.0 size=     256kB time=00:00:31.60 bitrate=  66.4kbits/s speed=0.989x    Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[33mchrome_video_1   |[0m frame=  489 fps= 15 q=11.0 size=     256kB time=00:00:32.06 bitrate=  65.4kbits/s speed=0.987x    2021-12-12 18:15:06,342 WARN received SIGTERM indicating exit request
+[33mchrome_video_1   |[0m 2021-12-12 18:15:06,344 INFO waiting for video-recording, video-ready to die
+[33mchrome_video_1   |[0m Traceback (most recent call last):
+[33mchrome_video_1   |[0m   File "/opt/bin/video_ready.py", line 19, in <module>
+[33mchrome_video_1   |[0m     httpd.serve_forever()
+[33mchrome_video_1   |[0m   File "/usr/lib/python3.8/socketserver.py", line 232, in serve_forever
+[33mchrome_video_1   |[0m     ready = selector.select(poll_interval)
+[33mchrome_video_1   |[0m   File "/usr/lib/python3.8/selectors.py", line 415, in select
+[33mchrome_video_1   |[0m     fd_event_list = self._selector.poll(timeout)
+[33mchrome_video_1   |[0m KeyboardInterrupt
+[33mchrome_video_1   |[0m 2021-12-12 18:15:06,360 INFO stopped: video-ready (terminated by SIGINT)
+[33mchrome_video_1   |[0m frame=  490 fps= 15 q=-1.0 Lsize=     347kB time=00:00:32.60 bitrate=  87.2kbits/s speed=   1x    
+[33mchrome_video_1   |[0m video:344kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.788170%
+[36;1mfirefox_video_1  |[0m frame=  490 fps= 15 q=11.0 size=     256kB time=00:00:32.13 bitrate=  65.3kbits/s speed=0.989x    2021-12-12 18:15:06,421 WARN received SIGTERM indicating exit request
+[36;1mfirefox_video_1  |[0m 2021-12-12 18:15:06,423 INFO waiting for video-recording, video-ready to die
+[33mchrome_video_1   |[0m [libx264 @ 0x5607b4340cc0] frame I:2     Avg QP:14.00  size: 32667
+[33mchrome_video_1   |[0m [libx264 @ 0x5607b4340cc0] frame P:488   Avg QP:11.10  size:   588
+[33mchrome_video_1   |[0m [libx264 @ 0x5607b4340cc0] mb I  I16..4: 100.0%  0.0%  0.0%
+[33mchrome_video_1   |[0m [libx264 @ 0x5607b4340cc0] mb P  I16..4:  0.2%  0.0%  0.0%  P16..4:  2.1%  0.0%  0.0%  0.0%  0.0%    skip:97.6%
+[33mchrome_video_1   |[0m [libx264 @ 0x5607b4340cc0] coded y,uvDC,uvAC intra: 11.0% 12.2% 11.0% inter: 0.3% 1.6% 0.0%
+[33mchrome_video_1   |[0m [libx264 @ 0x5607b4340cc0] i16 v,h,dc,p: 89%  9%  1%  1%
+[33mchrome_video_1   |[0m [libx264 @ 0x5607b4340cc0] i8c dc,h,v,p: 72% 10% 17%  0%
+[33mchrome_video_1   |[0m [libx264 @ 0x5607b4340cc0] kb/s:86.24
+[36;1mfirefox_video_1  |[0m Traceback (most recent call last):
+[36;1mfirefox_video_1  |[0m   File "/opt/bin/video_ready.py", line 19, in <module>
+[36;1mfirefox_video_1  |[0m     httpd.serve_forever()
+[36;1mfirefox_video_1  |[0m   File "/usr/lib/python3.8/socketserver.py", line 232, in serve_forever
+[36;1mfirefox_video_1  |[0m     ready = selector.select(poll_interval)
+[36;1mfirefox_video_1  |[0m   File "/usr/lib/python3.8/selectors.py", line 415, in select
+[36;1mfirefox_video_1  |[0m     fd_event_list = self._selector.poll(timeout)
+[36;1mfirefox_video_1  |[0m KeyboardInterrupt
+[33mchrome_video_1   |[0m Exiting normally, received signal 2.
+[33mchrome_video_1   |[0m 2021-12-12 18:15:06,439 INFO stopped: video-recording (exit status 255)
+[36;1mfirefox_video_1  |[0m 2021-12-12 18:15:06,448 INFO stopped: video-ready (terminated by SIGINT)
+[35medge_video_1     |[0m frame=  490 fps= 15 q=11.0 size=     256kB time=00:00:32.13 bitrate=  65.3kbits/s speed=0.989x    2021-12-12 18:15:06,476 WARN received SIGTERM indicating exit request
+[35medge_video_1     |[0m 2021-12-12 18:15:06,477 INFO waiting for video-recording, video-ready to die
+[35medge_video_1     |[0m Traceback (most recent call last):
+[35medge_video_1     |[0m   File "/opt/bin/video_ready.py", line 19, in <module>
+[35medge_video_1     |[0m     httpd.serve_forever()
+[35medge_video_1     |[0m   File "/usr/lib/python3.8/socketserver.py", line 232, in serve_forever
+[35medge_video_1     |[0m     ready = selector.select(poll_interval)
+[35medge_video_1     |[0m   File "/usr/lib/python3.8/selectors.py", line 415, in select
+[35medge_video_1     |[0m     fd_event_list = self._selector.poll(timeout)
+[35medge_video_1     |[0m KeyboardInterrupt
+[33mchrome_video_1   |[0m Shutdown complete
+[36;1mfirefox_video_1  |[0m frame=  491 fps= 15 q=-1.0 Lsize=     348kB time=00:00:32.66 bitrate=  87.2kbits/s speed=   1x    
+[36;1mfirefox_video_1  |[0m video:345kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.787629%
+[35medge_video_1     |[0m 2021-12-12 18:15:06,509 INFO stopped: video-ready (terminated by SIGINT)
+[36;1mfirefox_video_1  |[0m [libx264 @ 0x555aae5f2cc0] frame I:2     Avg QP:14.00  size: 33953
+[36;1mfirefox_video_1  |[0m [libx264 @ 0x555aae5f2cc0] frame P:489   Avg QP:11.10  size:   583
+[36;1mfirefox_video_1  |[0m [libx264 @ 0x555aae5f2cc0] mb I  I16..4: 100.0%  0.0%  0.0%
+[36;1mfirefox_video_1  |[0m [libx264 @ 0x555aae5f2cc0] mb P  I16..4:  0.2%  0.0%  0.0%  P16..4:  2.2%  0.0%  0.0%  0.0%  0.0%    skip:97.5%
+[36;1mfirefox_video_1  |[0m [libx264 @ 0x555aae5f2cc0] coded y,uvDC,uvAC intra: 11.3% 11.1% 9.8% inter: 0.3% 1.7% 0.0%
+[36;1mfirefox_video_1  |[0m [libx264 @ 0x555aae5f2cc0] i16 v,h,dc,p: 89%  9%  1%  1%
+[36;1mfirefox_video_1  |[0m [libx264 @ 0x555aae5f2cc0] i8c dc,h,v,p: 72% 11% 17%  0%
+[36;1mfirefox_video_1  |[0m [libx264 @ 0x555aae5f2cc0] kb/s:86.24
+[36;1mfirefox_video_1  |[0m Exiting normally, received signal 2.
+[35medge_video_1     |[0m frame=  491 fps= 15 q=-1.0 Lsize=     371kB time=00:00:32.66 bitrate=  93.0kbits/s speed=   1x    
+[35medge_video_1     |[0m video:368kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.738150%
+[35medge_video_1     |[0m [libx264 @ 0x55668217dcc0] frame I:2     Avg QP:14.00  size: 40357
+[35medge_video_1     |[0m [libx264 @ 0x55668217dcc0] frame P:489   Avg QP:11.09  size:   605
+[35medge_video_1     |[0m [libx264 @ 0x55668217dcc0] mb I  I16..4: 100.0%  0.0%  0.0%
+[35medge_video_1     |[0m [libx264 @ 0x55668217dcc0] mb P  I16..4:  0.2%  0.0%  0.0%  P16..4:  2.4%  0.0%  0.0%  0.0%  0.0%    skip:97.4%
+[35medge_video_1     |[0m [libx264 @ 0x55668217dcc0] coded y,uvDC,uvAC intra: 12.1% 11.6% 10.4% inter: 0.4% 1.6% 0.1%
+[35medge_video_1     |[0m [libx264 @ 0x55668217dcc0] i16 v,h,dc,p: 89%  9%  1%  1%
+[35medge_video_1     |[0m [libx264 @ 0x55668217dcc0] i8c dc,h,v,p: 69%  8% 23%  0%
+[35medge_video_1     |[0m [libx264 @ 0x55668217dcc0] kb/s:92.03
+[35medge_video_1     |[0m Exiting normally, received signal 2.
+[35medge_video_1     |[0m 2021-12-12 18:15:06,576 INFO stopped: video-recording (exit status 255)
+[35medge_video_1     |[0m Shutdown complete
+[33mcucumberbddframework_chrome_video_1 exited with code 143
+[0m[36mchrome_1         |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[35mcucumberbddframework_edge_video_1 exited with code 143
+[0m[32medge_1           |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[36mchrome_1         |[0m 2021-12-12 18:15:06,999 WARN received SIGTERM indicating exit request
+[36mchrome_1         |[0m 2021-12-12 18:15:07,002 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+[32medge_1           |[0m 2021-12-12 18:15:07,281 WARN received SIGTERM indicating exit request
+[32medge_1           |[0m 2021-12-12 18:15:07,284 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+[36;1mfirefox_video_1  |[0m 2021-12-12 18:15:07,520 INFO stopped: video-recording (exit status 255)
+[36;1mfirefox_video_1  |[0m Shutdown complete
+[36;1mcucumberbddframework_firefox_video_1 exited with code 143
+[0m[34mfirefox_1        |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[36mchrome_1         |[0m 2021-12-12 18:15:08,005 INFO stopped: selenium-node (terminated by SIGTERM)
+[32medge_1           |[0m 2021-12-12 18:15:08,288 INFO stopped: selenium-node (terminated by SIGTERM)
+[34mfirefox_1        |[0m 2021-12-12 18:15:08,615 WARN received SIGTERM indicating exit request
+[34mfirefox_1        |[0m 2021-12-12 18:15:08,618 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+[36mchrome_1         |[0m 2021-12-12 18:15:09,009 INFO stopped: novnc (terminated by SIGTERM)
+[32medge_1           |[0m 2021-12-12 18:15:09,293 INFO stopped: novnc (terminated by SIGTERM)
+[34mfirefox_1        |[0m 2021-12-12 18:15:09,620 INFO stopped: selenium-node (terminated by SIGTERM)
+[36mchrome_1         |[0m 2021-12-12 18:15:10,012 INFO stopped: vnc (terminated by SIGTERM)
+[36mchrome_1         |[0m 2021-12-12 18:15:10,013 INFO waiting for xvfb to die
+[32medge_1           |[0m 2021-12-12 18:15:10,298 INFO stopped: vnc (terminated by SIGTERM)
+[32medge_1           |[0m 2021-12-12 18:15:10,300 INFO waiting for xvfb to die
+[32medge_1           |[0m 2021-12-12 18:15:10,303 INFO stopped: xvfb (terminated by SIGTERM)
+[32medge_1           |[0m Shutdown complete
+[32mcucumberbddframework_edge_1 exited with code 143
+[0m[34mfirefox_1        |[0m 2021-12-12 18:15:10,624 INFO stopped: novnc (terminated by SIGTERM)
+[34mfirefox_1        |[0m 2021-12-12 18:15:10,627 INFO stopped: vnc (terminated by SIGTERM)
+[36mchrome_1         |[0m 2021-12-12 18:15:11,016 INFO stopped: xvfb (terminated by SIGTERM)
+[36mchrome_1         |[0m Shutdown complete
+[36mcucumberbddframework_chrome_1 exited with code 143
+[0m[34mfirefox_1        |[0m 2021-12-12 18:15:11,631 INFO stopped: xvfb (terminated by SIGTERM)
+[34mfirefox_1        |[0m Shutdown complete
+[34mcucumberbddframework_firefox_1 exited with code 143
+[0m[33;1mselenium-hub     |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[33;1mselenium-hub     |[0m 2021-12-12 18:15:12,669 WARN received SIGTERM indicating exit request
+[33;1mselenium-hub     |[0m 2021-12-12 18:15:12,670 INFO waiting for selenium-grid-hub to die
+[33;1mselenium-hub     |[0m 2021-12-12 18:15:13,674 INFO stopped: selenium-grid-hub (terminated by SIGTERM)
+[33;1mselenium-hub     |[0m Shutdown complete
+[33;1mselenium-hub exited with code 143
+[0m
+# Add the  flag at the end for detached execution
+# To stop the execution, hit Ctrl+C, and then 
+version: 3
+services:
+
+  selenium-hub:
+    image: selenium/hub:4.1.0-20211209
+    container_name: selenium-hub
+    ports:
+      - 4442:4442
+      - 4443:4443
+      - 4444:4444
+
+  chrome:
+    image: selenium/node-chrome:4.1.0-20211209
+    shm_size: 2gb
+    depends_on:
+      - selenium-hub
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+
+  edge:
+    image: selenium/node-edge:4.1.0-20211209
+    shm_size: 2gb
+    depends_on:
+      - selenium-hub
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - SE_NODE_GRID_URL=http://localhost:4444
+
+  firefox:
+    image: selenium/node-firefox:4.1.0-20211209
+    shm_size: 2gb
+    depends_on:
+      - selenium-hub
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - SE_NODE_GRID_URL=http://localhost:4444
+
+  chrome_video:
+    image: selenium/video:ffmpeg-4.3.1-20211209
+    volumes:
+      - /tmp/videos:/videos
+    depends_on:
+      - chrome
+    environment:
+      - DISPLAY_CONTAINER_NAME=chrome
+      - FILE_NAME=chrome_video.mp4
+
+  edge_video:
+    image: selenium/video:ffmpeg-4.3.1-20211209
+    volumes:
+      - /tmp/videos:/videos
+    depends_on:
+      - edge
+    environment:
+      - DISPLAY_CONTAINER_NAME=edge
+      - FILE_NAME=edge_video.mp4
+
+  firefox_video:
+    image: selenium/video:ffmpeg-4.3.1-20211209
+    volumes:
+      - /tmp/videos:/videos
+    depends_on:
+      - firefox
+    environment:
+      - DISPLAY_CONTAINER_NAME=firefox
+      - FILE_NAME=firefox_video.mp4

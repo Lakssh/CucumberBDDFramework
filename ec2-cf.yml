@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: A sample template
+Resources:
+  MyEC2Instance:
+    Type: "AWS::EC2::Instance" # picking ec2 instance as resource
+    Properties:
+      ImageId: "ami-02e69848d53eedd48" # chossing ami for win
+      InstanceType: t2.micro
+      KeyName: dev
+      UserData:|
+        sudo -i
+        yum update -y
+        yum install java-1.8.0-openjdk -y
