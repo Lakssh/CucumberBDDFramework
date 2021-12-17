@@ -1,13 +1,98 @@
-AWSTemplateFormatVersion: "2010-09-09"
-Description: A sample template
+AWSTemplateFormatVersion: 2010-09-09
+Description: IAM ROLES AND POLICY
 Resources:
-  MyEC2Instance:
-    Type: "AWS::EC2::Instance" # picking ec2 instance as resource
+  rEC2BaseRole:
+    Type: AWS::IAM::Role
     Properties:
-      ImageId: "ami-02e69848d53eedd48" # chossing ami for win
+      RoleName: EC2BaseRole
+      AssumeRolePolicyDocument:
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - ec2.amazonaws.com
+            Action:
+              - sts:AssumeRole
+      Path: "/"
+
+  rEC2BasePolicy:
+    Type: "AWS::IAM::Policy"
+    Properties:
+      PolicyName: root
+      PolicyDocument:
+        Statement:
+          - Effect: Allow
+            Action:
+              - ec2:DescribeTags
+              - ec2:DescribeVolumes
+              - ec2:DescribeInstances
+            Resource: "*"
+          - Effect: Allow
+            Action:
+              - s3:*
+            Resource:
+              - "arn:aws:s3:::*"
+              - "arn:aws:s3:::*/*"
+      Roles:
+        - Ref: rEC2BaseRole
+
+  rEC2BaseProfile:
+    Type: "AWS::IAM::InstanceProfile"
+    Properties:
+      Path: "/"
+      Roles:
+        - Ref: rEC2BaseRole
+      InstanceProfileName: "EC2BaseProfile"
+
+  rSecurityGroup:
+    Type: 'AWS::EC2::SecurityGroup'
+    Properties:
+      VpcId: vpc-0cbd8f64
+      GroupDescription: SG to allow SSH access via port 22 and grid via 4444
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: '22'
+          ToPort: '22'
+          CidrIp: '0.0.0.0/0'
+        - IpProtocol: tcp
+          FromPort: '4444'
+          ToPort: '4444'
+          CidrIp: '0.0.0.0/0'
+      Tags:
+        - Key: Name
+          Value: SG-Selenium-Grid
+
+  rEC2Instance:
+    Type: "AWS::EC2::Instance"
+    Properties:
+      AvailabilityZone:
+        Fn::Sub: "${AWS::Region}a"
+      ImageId: ami-0225c865
       InstanceType: t2.micro
+      IamInstanceProfile:
+        Ref: "rEC2BaseProfile"
+      SecurityGroupIds:
+        - !GetAtt "rSecurityGroup.GroupId"
+        #      SubnetId: subnet-47a2340b
+      InstanceInitiatedShutdownBehavior: "stop"
       KeyName: dev
-      UserData:|
-        sudo -i
-        yum update -y
-        yum install java-1.8.0-openjdk -y
+      Tags:
+        - Key: "Name"
+          Value: "SeleniumGrid instance"
+        - Key: "Account"
+          Value:
+            Ref: AWS::AccountId
+      UserData:
+        !Base64 |
+        #!/bin/bash
+        sudo yum update -y
+        sudo yum remove java -y
+        sudo yum install java-1.8.0-openjdk -y
+        sudo aws s3 cp s3://laks-docker/docker-compose-v3.yml .
+        sudo docker-compose -f docker-compose-v3.yml up --scale chrome=2
+
+Outputs:
+  DemoInstanceId:
+    Description: Instance Id
+    Value: !Ref rEC2Instance
+
